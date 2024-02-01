@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+@keyframes transition{
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+.head{
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: x-large;
+}
+
+nav{
+   background-color: #06445A;
+   backdrop-filter: blur(30px); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;   
+    padding: 0 35px;
+}
+
+nav li{
+    display: inline-block;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 7px;
+    width: 250px;
+}
+
+nav a{
+    color: black;
+    font-size: small;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    animation: transition 1.5s;
+}
+
+nav a:hover{
+    transition: ease 0.3s;
+    color: #f46637;
+}
+
+.navlinks{
+    background-color: rgb(228, 246, 233);
+    border-radius: 55px;
+    display: flex;
+    height: 35px;
+    width: 270px;
+    animation: transition 1.5s;
+}
+
+.logo h3{
+    color: #f77f57;
+    justify-content:flex-end;
+    margin-right: 150vh;
+    font-size: 45px;
+    padding: 0 14px;
+    margin-top: 15px;
+    width: 15px;
+    animation: transition 1.5s;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+section{
+        background-color: #06445A;
+        font-family: 'Poppins', sans-serif;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        scroll-snap-align: start;
+}
+
+.two{
+    color: #06445A;
+    background-color: rgb(214, 249, 224);
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+img{
+    image-resolution: 360px;
+    width: 250px;
+    height: 250px;
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+    animation: transition 1.5s;
+}
+
+.text{
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    animation: transition 1.5s;
+}
+
+h1 {
+    display: flex;
+   color: #b8e5f6;
+   font-size: 42px;
+   font-weight:900;
+   animation: transition 1.5s;
+}
+
+.text h2{
+    color: #06445A;
+    font-size: 40px;
+    font-weight: bold;
+    animation: transition 1.5s;
+}
+
+.text p{
+    color: #06445A;
+    font-size: 23px;
+    animation: transition 1.5s;
+}
+
+.text a{
+    text-decoration: none;
+    color: azure;
+}
+
+button{
+    background-color:#fdd133;
+    border-color: aliceblue;
+    border-style: solid;
+    height: 25px;
+    width: 100px;
+    animation: transition 1.5s;
+}
+
+.three{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: transition 1.5s;
+
+} 
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size:20px;
+    gap: 10px;
+    margin-left: 10px;
+    margin-top: 350px;
+    animation: transition 1.5s;
+}
+
+.icons i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    justify-content: space-around;
+    color: #b8e5f6;
+}
+
+.icons a{
+    text-decoration: none;
+}
+
+.icons i:hover{
+    transition: ease-in 0.3s;
+    color: #f46637;
+}
+
+h5{
+    color: #b8e5f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   font-size: xx-large;
+   animation: transition 1.5s;
+}
+
+.btn{
+    color: #06445A;
+    background-color: rgb(214, 249, 224);
+    border-style: none;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: #0b6282;
+    font-size: 11;
+    font-weight: bold;
+    margin-top: 15px;
+    height: 35px;
+    width: 100px;
+    cursor: pointer;
+    animation: transition 1.5s;
+}
+
+.btn a{
+    color: #06445A;
+}
+
+.btn2{
+    color: white;
+    background-color: #f46637;
+    border-style: none;
+    border-radius: 10px;
+    font-weight: bold;
+    height: 35px;
+    width: 112px;
+    cursor: pointer;
+}
+.up i{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 87vh;
+    margin-left: 200vh;
+    font-size: xx-large;
+    animation: transition 1.5s;
+
+}
+.up a{
+    color: #0b6282;
+   text-decoration: none;
+}
+
+
+
+.phezulu i{
+    margin-bottom: 87vh;
+    font-size: xx-large;
+    animation: transition 1.5s;
+    
+}
+
+.phezulu a{
+    color: #b8e5f6;
+    text-decoration: none;
+}
